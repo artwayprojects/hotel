@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="./src/styles/scss/app.scss">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Villatel hotel</title>
+</head>
+
+<body>
+  <nav>
+    <img src="/images/logo.png" alt="logo">
+
+    <img src="/images/hamburger.png" width="60" alt="logo">
+  </nav>
+
+  <main class="section">
+    <h1>Stay with us</h1>
+
+    <form class="form-container">
+      <div id="location-dropdown" class="field-wrapper">
+        <div class="dropdown">
+          <!-- //can't use "fa-thin fa-location-dot" since it's a PRO icon -->
+          <i class="fa fa-location-dot fa-lg icon-map"></i>
+
+          <div class="select">
+            <input id="location" class="selected" readonly placeholder="Select a Destination" required />
+        
+            <i class="fa fa-chevron-down fa-2xs caret"></i>
+          </div>
+          <ul class="select-menu">
+            <li class="active"> Orlando, FL </li>
+            <li> Melbourne beach, FL </li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="field-wrapper">
+        <div class="dropdown">
+          <div class="select">
+            <input id="check-in" type="text" class="btn-date selected" placeholder="Check in" required />
+             <!-- can't use "fa-thin fa-arrow-right" since it's a PRO icon -->
+            <img src="./images/form/arrow-right.png" alt="arrow" width="20" class="icon-arrow-right" />
+            <input id="check-out" type="text" class="btn-date" placeholder="Check out" required />
+          </div>
+        </div>
+      </div>
+
+
+      <button class="btn-submit">search</button>
+    </form>
+    </div>
+  </main>
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>

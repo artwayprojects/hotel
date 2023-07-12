@@ -1,0 +1,83 @@
+@import './fonts';
+@import './normalize';
+@import './form';
+
+@import url('../../../node_modules/@fortawesome/fontawesome-free/css/all.min.css');
+
+// general
+:root {
+    /* Colors: */
+    ---yellow-100: #f7f0e2;
+    ---gray-200: #e5f1fd;
+    ---gray-100: #dbe8f4;
+    ---white: #ffffff;
+    ---blue-100: #b1e3fa;
+    ---blue-300: #112f58;
+    ---blue-200: #496e9c;
+    ---orange: #f0725c;
+}
+
+main {
+    background-image: url(/images/background-video.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    height: 10vh;
+}
+
+h1 {
+    display: block;
+    color: var(---white);
+    font-family: 'Buenos Aires Bold';
+    font-size: 37px;
+}
+
+// buttons
+.btn-submit {
+    padding: 0 30px;
+    background-color: var(---orange);
+    border: none;
+    border-radius: 10rem;
+    height: 56px;
+    text-transform: uppercase;
+    color: var(---white);
+    font-family: 'Buenos Aires SemiBold';
+    font-size: 14px;
+    letter-spacing: 5.6px;
+}
+
+.btn-date {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    width: 130px;
+    text-align: center;
+}
+
+.btn-submit,
+.btn-date {
+    cursor: pointer;
+}
+
+// icons
+.icon-arrow-right {
+    margin: 0 0.6em;
+    color: var(---orange);
+}
+
+.icon-map {
+    margin-right: 15px;
+    margin-left: 17px;
+    color: var(---orange);
+}

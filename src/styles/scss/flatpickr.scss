@@ -1,0 +1,19 @@
+.flatpickr-calendar {
+    border-radius: 20px;
+    font-family: 'Buenos Aires SemiBold';
+    padding: 20px;
+}
+
+.flatpickr-months {
+    & .flatpickr-next-month {
+        right: 27px;
+        top: 20px;
+    }
+    & .flatpickr-prev-month {
+        left: 2px;
+        top: 20px;
+    }
+    & .flatpickr-month {
+        margin-bottom: 10px;
+    }
+}

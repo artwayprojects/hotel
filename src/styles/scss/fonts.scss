@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Buenos Aires Bold';
+    src: url('../fonts/BuenosAires-Bold.eot');
+    src:
+        local('Buenos Aires Bold'),
+        local('BuenosAires-Bold'),
+        url('../fonts/BuenosAires-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BuenosAires-Bold.woff2') format('woff2'),
+        url('../fonts/BuenosAires-Bold.woff') format('woff'),
+        url('../fonts/BuenosAires-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Buenos Aires SemiBold';
+    src: url('../fonts/BuenosAires-SemiBold.eot');
+    src:
+        local('Buenos Aires SemiBold'),
+        local('BuenosAires-SemiBold'),
+        url('../fonts/BuenosAires-SemiBold.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/BuenosAires-SemiBold.woff2') format('woff2'),
+        url('../fonts/BuenosAires-SemiBold.woff') format('woff'),
+        url('../fonts/BuenosAires-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Buenos Aires Book';
+    src: url('../fonts/BuenosAires-Book.eot');
+    src:
+        local('Buenos Aires Book'),
+        local('BuenosAires-Book'),
+        url('../fonts/BuenosAires-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BuenosAires-Book.woff2') format('woff2'),
+        url('../fonts/BuenosAires-Book.woff') format('woff'),
+        url('../fonts/BuenosAires-Book.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
