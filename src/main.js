@@ -39,7 +39,9 @@ options.forEach((option) => {
 })
 
 // validation
-submitBtn.addEventListener('click', () => {
+submitBtn.addEventListener('click', (e) => {
+    e.preventDefault()
+    
     const locationField = document.getElementById('location')
     const checkInField = document.getElementById('check-in')
     const checkOutField = document.getElementById('check-out')
